@@ -1,0 +1,32 @@
+
+<!--<div class="box">-->
+    <ul class="list">
+        <li>
+            <b class="chose"
+               ng-class="{on:item.state}"
+               ng-click="itemChecked(index)"></b>
+        </li>
+        <li>
+            <div class="imgs">
+                <img ng-src="{{item.img}}" alt="">
+            </div>
+        </li>
+        <li>
+            <span>{{item.name}}</span>
+        </li>
+        <li>
+            <span>{{item.price}}</span>元
+        </li>
+        <li class="an">
+            <p>
+                <span class="jian" ng-click="itemCount('-')">-</span>
+                <span class="count">{{item.num}}</span>
+                <span class="jia" ng-click="itemCount('+')">+</span>
+            </p>
+        </li>
+        <em ng-click="deleteItem(index)">×</em>
+    </ul>
+
+
+<!--</div>-->
+

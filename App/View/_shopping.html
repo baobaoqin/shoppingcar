@@ -1,0 +1,15 @@
+<shopping ng-repeat="item in shopping"
+          item="item"
+          index="{{$index}}">
+</shopping>
+<div class="box">
+    <div class="quan">
+        <div class="inp">
+            <span class="all" ng-class="{allon:flag}" ng-click="checkAll()"></span>全选
+        </div>
+    </div>
+    <div class="he">
+        <b>合计:<span class="price">{{goodsPrice}}</span>元</b>
+        结算(<span class="jie">{{goodsCount}}</span>)
+    </div>
+</div>

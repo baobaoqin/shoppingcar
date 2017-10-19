@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.box{
+    width:800px;
+    height:auto;
+    border:1px solid #ccc;
+    margin:20px auto;
+}
+.list{
+    width:800px;
+    height:120px;
+    clear:both;
+    margin:20px auto;
+    border:1px solid #ccc;
+    position:relative;
+}
+.list li{
+    width:158px;
+    height:120px;
+    float:left;
+    border-right:1px solid #ccc;
+    text-align: center;
+    line-height:120px;
+}
+.list li b{
+    width:20px;
+    height:20px;
+    border:1px solid #ccc;
+    border-radius: 100%;
+    display:inline-block;
+}
+.list li b.on{
+    background:orange;
+}
+.list li .imgs{
+    width:100px;
+    height:100px;
+    margin-left:22.5px;
+    margin-top:10px;
+}
+.list li .imgs img{
+    width:100%;
+    height:100%;
+}
+.list li p{
+    line-height:120px;
+}
+.list li p .jia,.list li p .jian,.list li p .count{
+    width:20px;
+    height:20px;
+    border:1px solid #ccc;
+    display:inline-block;
+    text-align: center;
+    line-height: 20px;
+    cursor:pointer;
+}
+.list li.an{
+    border-right: none;
+}
+.quan{
+    padding-left:15px;
+    border-bottom: 1px solid #ccc;
+    height:30px;
+    line-height:30px;
+}
+.quan span{
+    width:15px;
+    height:15px;
+    border:1px solid #ccc;
+    border-radius:100%;
+    display:inline-block;
+}
+.quan .allon{
+    background:orange;
+}
+.he{
+    clear: both;
+    height:30px;
+}
+.he b{
+    float:right;
+    line-height: 30px;
+    margin-right:10px;
+
+}
+.list em{
+    width:15px;
+    height:15px;
+    border:1px solid #ccc;
+    position:absolute;
+    top:-10px;
+    bottom:0;
+    border-radius: 100%;
+    line-height:15px;
+    font-style: normal;
+    text-align: center;
+    background:#fff;
+    cursor:pointer;
+}
+.jie,.price{
+    color:red;
+}
+
+
